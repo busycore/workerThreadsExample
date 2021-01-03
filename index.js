@@ -2,9 +2,6 @@ const express = require('express');
 const app = express();
 const { Worker } = require('worker_threads');
 
-
-
-
 app.get('/', function (req, res) {
   const worker = new Worker(__dirname+"/worker.js",{
       //Here we pass anything to the worker
