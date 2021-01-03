@@ -1,3 +1,5 @@
+//Based on this post on dev.to https://dev.to/kannndev/node-js-worker-threads-24f6 by kannan
+
 const express = require('express');
 const app = express();
 const { Worker } = require('worker_threads');
